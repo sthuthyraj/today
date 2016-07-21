@@ -1,0 +1,18 @@
+h1
+{
+  font-size: 60px;
+}
+nav li{
+  display:grid;
+  font-size: 60px;
+  border-style: double;
+}
+h2
+{
+  font-size: 20px;
+  text-align: left;
+}
+p
+{
+  text-align:justify;;
+}

@@ -1,6 +1,6 @@
 .banner
 {
-background: url(../img/ser.jpg) no-repeat;
+background: url(../img/ss.jpg) no-repeat;
 width: 100%;
 height:100%;
 }
@@ -9,29 +9,42 @@ h1
 {
   text-align: center;
   font-style:normal;
-  text-decoration-color: transparent;
-  font-size: 100px;
-  margin-top: 10px;
-  color: rgb(15,128,80);
+  font-size: 90px;
+  color: rgb(97,189,38);
 }
 h2
 {
-  color: rgb(205, 92, 92);
-  font-size: 80px;
   text-align: center;
+  font-style:italic;
+  font-size: 60px;
+  color: rgb(23,51,5);
+}
+h3
+{
+  margin-top: 240px;
+}
+p
+{
+  margin-left: 400px;
+  color: rgb(236,66,2);
+  font-size: 60px;
   font-style: italic;
-  margin-top: 290px;
-  margin-left: 550px;
-
 }
 input
 {
-  width:100px;
-  height:30px;
-  font-weight: bold;
-  font-size: 15px;
-  font-style:normal;
+  margin-left: 570px;
+  width:160px;
+  height:40px;
+  font-size: 20px;
+  font-style: normal;
+  cursor:pointer;
   position: relative;
-  top: -50px;
-  text-align: center;
+  top: -55px;
+  color: white;
+  background:rgb(236,66,2);
+}
+input:hover
+{
+  color:rgb(236,66,2) ;
+  background:white;
 }
