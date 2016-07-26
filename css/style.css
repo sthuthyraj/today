@@ -1,72 +1,150 @@
-h1
-{
-  background-color: rgb(111,211,249);
-  width:900px;
-  font-size: 100px;
-  font-weight: bolder;
-  color:rgb(11,5,150);
-  text-align: center;
+
+.banner {
+  background: url(../img/ss.jpg) no-repeat;
+  position: relative;
 }
-nav li
-{
-  height:40px;
-  width:100%;
-  display: inline;
-  font-size: 30px;
+.banner h1 {
+  text-align:center;
   font-style:normal;
-  padding-right:10px;
+  font-size: 85px;
+  color: rgb(97,189,38);
+  text-transform: uppercase;
+}
+.banner h2 {
+  text-align: center;
+  font-style: italic;
+  font-size: 65px;
+  color: rgb(23,51,5);
+  margin-top: -10px;
 }
 
-ul a
-{
-  background: black;
-  color:white;
+.banner p {
+  color: rgb(236,66,2);
+  font-size: 60px;
+  font-style: italic;
+  margin-top: 170px;
+  text-align: center;
+  font-style: italic;
 }
-ul a:hover
-{
+
+.banner input {
+  width:160px;
+  height:40px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor:pointer;
+  color: white;
+  background:rgb(236,66,2);
+  margin-left: 360px;
+ }
+
+.banner input:hover {
+  color:rgb(236,66,2) ;
   background:white;
-  color:black;
 }
-.main
-{
 
-  background: url(../img/ban.jpg) no-repeat;
+.dream,.design {
+  background-color: rgb(238,198,194);
+}
+
+.dream h1,.design h1 {
+  position: fixed;
+  top:-60px;
+  background-color: rgb(235,152,78);
+  width:100%;
+  font-size: 90px;
+  font-weight: bolder;
+  color:rgb(100,30,22);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.dream ul {
+  margin-top:150px;
+  font-size:30px;
+  display: inline-block;
+  list-style-type: none;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.design ul {
+  margin-top: 40px;
+  font-size: 30px;
+  display: inline-block;;
+  list-style-type: none;
+  font-style: italic;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.dream ul li,.design ul li {
+  float:left;
+}
+
+.dream li a,.design li a {
+  color: #000;
+  padding: 14px 14px;
+    text-decoration: none;
+}
+
+.dream li a:hover,.design li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.main {
+  background: url(../img/dream.jpg) no-repeat;
+  background-position: center;
   width: 100%;
   height:100%;
 }
-blockquote{
-  font-size: 50px;
+
+.dream blockquote {
+  font-size: 60px;
   font-family: 'Lobster', cursive;
   text-align: center;
   color: white;
-
 }
-h2
-{
-  font-size: 40px;
+
+.dream aside {
+  font-size: 30px;
   font-family:cursive;
   text-align: center;
-  color:white;
+  color:black;
+  text-transform:capitalize;
+  width:100%;
 }
-aside
-{
-align-items: center;
-  height:600px;
-  width: 200px;
+
+footer ul {
+  text-align:center;
+  list-style-type: none;
 }
-.footer
-{
 
-  background:rgb(111,211,249);
-  width: 60px;
-  position: relative;
-  top:50px;
-
-}
-footer li
-{
-
-    font-size: 50px;
-    display: inline;
+footer ul li {
+    float: left;
     padding-right: 10px;
+    display:inline;
+}
+.design .dd {
+    margin-top: 120px;
+    font-size: 60px;
+    text-transform:capitalize;
+    font-style: italic;
+    text-align: center;
+}
+
+.design .gr {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;;
+  text-transform: capitalize;
+}
+
+.gr p {
+  font-size: 15px;
+  text-align:justify ;
+  font-style: italic;
+  text-transform:inherit;
 }
